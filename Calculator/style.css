@@ -1,0 +1,38 @@
+body {
+    margin: 0% ;
+    padding: 0% ;
+    background-image: url(images/img\(20\).jpg) ;
+}
+.main {
+    width: 200px ;
+    height: 370px ;
+    border: 1px solid black ;
+    margin: auto ;
+    background-image: linear-gradient(25deg, #5f9986f3 50%, #37a000 50%);
+}
+h1{
+    text-align: center;
+    text-decoration: overline underline;
+    margin-top: 10px ;
+}
+#answer-btn {
+    margin: 10px 0px 0px 10px ;
+    width: calc(100% - 20px);
+    padding: 7px ;
+    box-sizing: border-box ;
+    cursor: auto ;
+    border : 1px solid #4d4d4d;
+    border-radius: 0px ;
+}
+input {
+    margin: auto ;
+    padding: 7px 16px 7px 16px ;
+    margin-left: 10px ;
+    cursor: pointer ;
+    border : 1px solid #595959 ;
+    border-radius: 10% ;
+}
+#clear-btn {
+    width: calc(100% - 20px ) ;
+    border-radius: 0px ;
+}

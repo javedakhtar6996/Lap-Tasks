@@ -1,0 +1,77 @@
+* {
+    padding: 0% ;
+    margin: 0% ;
+    box-sizing: border-box ;
+    font-family: 'Montserrat', sans-serif;
+
+}
+body {
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)) , url("../Images/bridge-clouds-cloudy-556416.jpg");
+    background-position: center ;
+    background-size: cover ;
+    background-repeat: no-repeat ;
+    width: 100% ;
+    height: 100vh ;
+    overflow-x: hidden ;
+    font: 20px ;
+}
+#frm {
+    position: absolute ;
+    top: 50% ;
+    left: 50% ;
+    transform: translate(-50% , -50%);
+    width: 250px ;
+    height: 250px ;
+    /* border: 1px solid red ;  */
+}
+h1 {
+    text-align: center ;
+    color: white ;
+    margin-bottom: 10px ;
+    font-size: 200% 
+}
+#frm input[type = "text"] , #frm input[type = 'password'] {
+    display: block ;
+    margin: auto ;
+    padding: 5px 10px ;
+    text-align: center;
+    margin-bottom: 5px ;
+    border: 2px solid #b3b3ff ;
+    border-radius: 50px ;
+    outline: none ;
+    background: transparent;
+    color: white ;
+}
+#frm input[type = "text"]:focus , #frm input[type = 'password']:focus {
+    width: 250px ;
+}
+::placeholder {
+    color: white ;
+}
+#frm input[type = "submit"] {
+    display: block ;
+    margin: auto ;
+    padding: 5px 10px ;
+    text-align: center;
+    margin-bottom: 5px ;
+    border: 2px solid #b3b3ff ;
+    border-radius: 50px ;
+    background: transparent;
+    color: white ;
+    outline: none ;
+    cursor: pointer ;
+    margin-bottom: 10px ;
+}
+#frm input[type = "submit"]:hover {
+    background-color: #e6e6ff ;
+    color: black ;
+}
+#frm a {
+    margin-left: 150px  ;
+    color: white ;
+    text-decoration: none ;
+    padding-bottom: 5px ;
+}
+#frm a:hover {
+    border-bottom: 2px solid #ff66ff ;
+}
